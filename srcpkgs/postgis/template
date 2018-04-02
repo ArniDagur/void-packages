@@ -1,0 +1,14 @@
+# Template file for 'postgis'
+pkgname=postgis
+version=2.4.3
+revision=1
+build_style=gnu-configure
+hostmakedepends="perl"
+makedepends="geos proj libgdal libxml2 json-c postgresql postgresql-libs-devel libxml2-devel geos-devel proj-devel libgdal-devel libgdal-tools"
+depends=""
+short_desc="A spatial database extender for PostgreSQL object-relational database"
+maintainer="Árni Dagur <arnidg00@gmail.com>"
+license="GPL-2.0-or-later"
+homepage="https://postgis.net/"
+distfiles="https://download.osgeo.org/postgis/source/postgis-${version}.tar.gz"
+checksum=ea5374c5db6b645ba5628ddcb08f71d3b3d90a464d366b4e1d20d5a268bde4b9
